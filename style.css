@@ -1,0 +1,128 @@
+body, .bodyCopy{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(209, 202, 216);
+    flex: 1;
+}
+.bodyCopy{
+    flex-direction: row;
+}
+.sketchpad{
+    display: flex;
+    width: 480px;
+    height: 480px;
+    background-color: white;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    margin: 20px;
+    margin-bottom: 300px;
+    flex-shrink: 0;
+}
+.deleteHelper{
+}
+#slider{
+    -webkit-appearance: none;
+    background: rgb(82, 134, 102);
+    outline: none;
+    border-radius: 50px;
+    width: 150px;
+    margin-left: 0;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    background: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 680px;
+    width: 150px;
+    margin: 0;
+    gap: 10px;
+}
+.clear{
+    display: flex;
+    justify-content: center;
+}
+.divSlider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    margin: 10px 0 0 0;
+}
+.sliderValue{
+    text-align: center;
+    margin: 5px;
+    font-size: 22px;
+}
+#changeGridButton, .Button{
+    background: rgb(82, 134, 102);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border: 0;
+    cursor: pointer;
+    color: black;
+}
+#changeGridButton:hover
+{
+    border: solid green;
+}
+.easer{
+    width: 100px;
+    height: 100px;
+}
+.changeColor{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 100px;
+    height: 350px;
+    margin: 10px;
+}
+.changeButton{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(167, 167, 170);
+    color: rgb(3, 2, 2);
+    border: 0;
+}
+.changeButton:hover
+{
+    border: solid grey;
+    cursor: pointer;
+}
+.changeB{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.sliderValueDiv{
+    margin: 0;
+}
+.footer{
+    bottom: 0;
+}
+.gridSizeText{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+  

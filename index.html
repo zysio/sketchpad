@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>sketchpad</title>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <div class="bodyCopy">
+    <div class="options">
+        <p class="gridSizeText">Grid size</p>
+        <div class="divSlider">
+            <input type="range" min="4" max="64" step="2" value="16" class="slider" id="slider">
+            <div class="sliderValueDiv"><p class="sliderValue"></p></div>
+        </div>
+        <div class="changeB"><button class="changeGridButton" id="changeGridButton">Change</button></div>
+        <div class="changeColor">
+            <button class="changeButton" id="clearButton">Clear</button>
+            <button class="changeButton" id="erase">Erase</button>
+            <button class="changeButton" id="black">Black</button>
+            <button class="changeButton" id="rainbow">Rainbow</button>
+        </div>
+    </div>
+    <div class="sketchpad"></div>
+</div> 
+    <div class="footer"><p>Copyright © 2023 Krzysztof Cybulski</p></div>
+</body>
+<script src="javascript.js"></script>
+</html>
